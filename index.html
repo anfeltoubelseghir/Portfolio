@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anfel Toubal Seghir | Computer Science Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Anfel Toubal Seghir, a 3rd year Computer Science student focused on Web Development and AI." />
+
+  <!-- Open Graph tags: control how the page looks when shared on social media -->
+  <meta property="og:title" content="Anfel Toubal Seghir | Computer Science Student & Web Developer" />
+  <meta property="og:description" content="Portfolio of Anfel Toubal Seghir, a 3rd year Computer Science student focused on Web Development and AI." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Space Grotesk for headings, Inter for body text, IBM Plex Mono for code-style details -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a href="#top" class="logo" aria-label="Back to top">ATS<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#learning" class="nav-link">Learning</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+
+        <div class="hero-text">
+          <p class="hero-kicker">Computer Science · 3rd Year</p>
+          <h1 class="hero-title">Hi, I'm Anfel <span aria-hidden="true">👋</span></h1>
+          <p class="hero-subtitle">Computer Science Student &amp; Aspiring Web Developer</p>
+          <p class="hero-desc">
+            I'm a third-year Computer Science student interested in Web Development and
+            Artificial Intelligence. I'm building my skills through academic and personal projects.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="terminal-card">
+            <div class="terminal-titlebar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="terminal-filename">about-anfel.js</span>
+            </div>
+            <pre class="terminal-body"><code id="terminalCode"></code><span class="terminal-cursor">&#9608;</span></pre>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="section" id="about">
+      <div class="section-inner about-grid fade-in">
+
+        <div class="about-text">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I am a third-year Computer Science student interested in Web Development,
+            Artificial Intelligence, and building useful digital solutions. I am continuously
+            improving my programming skills through personal and academic projects.
+          </p>
+          <p>
+            Most of what I know comes from building things — course assignments, side projects,
+            and a fair amount of trial and error. I'm still learning, and I'm using every project
+            as a step toward working as a freelance developer.
+          </p>
+        </div>
+
+        <ul class="about-points">
+          <li>
+            <span class="point-mark">01</span>
+            <div>
+              <h3>Currently studying</h3>
+              <p>3rd year Computer Science, building a foundation in software engineering.</p>
+            </div>
+          </li>
+          <li>
+            <span class="point-mark">02</span>
+            <div>
+              <h3>Focus areas</h3>
+              <p>Web development and artificial intelligence.</p>
+            </div>
+          </li>
+          <li>
+            <span class="point-mark">03</span>
+            <div>
+              <h3>How I learn</h3>
+              <p>By building real projects, not just following tutorials.</p>
+            </div>
+          </li>
+          <li>
+            <span class="point-mark">04</span>
+            <div>
+              <h3>Looking ahead</h3>
+              <p>Growing my skills toward doing freelance development work.</p>
+            </div>
+          </li>
+          <li>
+            <span class="point-mark">05</span>
+            <div>
+              <h3>Code</h3>
+              <p>Project source lives on <a href="https://github.com/anfeltoubelseghir" target="_blank" rel="noopener noreferrer" class="inline-link">GitHub</a>.</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="section-inner fade-in">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-lead">Technologies and tools I use and am currently building experience with.</p>
+
+        <div class="skills-groups">
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Working with</h3>
+            <ul class="skill-list">
+              <li class="skill-card"><span class="skill-name">HTML</span></li>
+              <li class="skill-card"><span class="skill-name">CSS</span></li>
+              <li class="skill-card"><span class="skill-name">JavaScript</span></li>
+              <li class="skill-card"><span class="skill-name">PHP</span></li>
+              <li class="skill-card"><span class="skill-name">MySQL</span></li>
+              <li class="skill-card"><span class="skill-name">Python</span></li>
+              <li class="skill-card"><span class="skill-name">Git &amp; GitHub</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Currently learning</h3>
+            <ul class="skill-list">
+              <li class="skill-card skill-card-learning"><span class="skill-name">React</span></li>
+              <li class="skill-card skill-card-learning"><span class="skill-name">Web Development</span></li>
+              <li class="skill-card skill-card-learning"><span class="skill-name">AI Tools</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS SECTION ============ -->
+    <section class="section" id="projects">
+      <div class="section-inner fade-in">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-lead">A few things I've built or am currently building.</p>
+
+        <div class="project-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <!-- Placeholder until a real screenshot is added. Swap this div for
+                 an <img src="assets/images/equiora.jpg" alt="EQUIORA screenshot"> later. -->
+            <div class="project-thumb" aria-hidden="true">
+              <span>Screenshot coming soon</span>
+            </div>
+            <div class="project-card-head">
+              <h3>EQUIORA</h3>
+              <span class="status-badge">In Progress</span>
+            </div>
+            <p class="project-desc">
+              An Algerian equestrian web platform connecting users with equestrian clubs,
+              horse farms, horses, competitions, and related services.
+            </p>
+            <ul class="tech-tags">
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>JavaScript</li>
+              <li>Leaflet</li>
+            </ul>
+            <div class="project-actions">
+              <span class="btn btn-small btn-outline btn-disabled" aria-disabled="true">GitHub — Coming Soon</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <span>Screenshot coming soon</span>
+            </div>
+            <div class="project-card-head">
+              <h3>Robot Synchronization</h3>
+              <span class="status-badge status-badge-alt">Academic Project</span>
+            </div>
+            <p class="project-desc">
+              An academic project exploring synchronization concepts in Operating Systems using Python.
+            </p>
+            <ul class="tech-tags">
+              <li>Python</li>
+              <li>Operating Systems</li>
+            </ul>
+            <div class="project-actions">
+              <span class="btn btn-small btn-outline btn-disabled" aria-disabled="true">GitHub — Coming Soon</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <span>Screenshot coming soon</span>
+            </div>
+            <div class="project-card-head">
+              <h3>Android Mini Project</h3>
+              <span class="status-badge">In Progress</span>
+            </div>
+            <p class="project-desc">
+              An early-stage Android project. Details will be added here once the project is further along.
+            </p>
+            <div class="project-actions">
+              <span class="btn btn-small btn-outline btn-disabled" aria-disabled="true">GitHub — Coming Soon</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEARNING JOURNEY SECTION ============ -->
+    <section class="section section-alt" id="learning">
+      <div class="section-inner fade-in">
+        <h2 class="section-title">Learning journey</h2>
+        <p class="section-lead">What I'm currently focused on improving.</p>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>JavaScript</h3>
+              <p>Deepening my understanding beyond the basics.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Web Development</h3>
+              <p>Building more complete, real-world style projects.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>React</h3>
+              <p>Starting to explore component-based front-end development.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Git &amp; GitHub</h3>
+              <p>Getting more comfortable with version control workflows.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>AI Tools</h3>
+              <p>Learning how to use AI tools effectively in my own projects.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <!-- No backend exists yet, so this is a simple set of real contact
+         channels instead of a form that would look like it sends messages. -->
+    <section class="section" id="contact">
+      <div class="section-inner fade-in">
+
+        <div class="contact-panel">
+          <div class="contact-info">
+            <h2 class="section-title">Get in touch</h2>
+            <p>
+              I'm always open to connecting about projects, collaboration, or freelance opportunities.
+              GitHub is the best way to see my code; email and LinkedIn are on the way.
+            </p>
+
+            <ul class="contact-links">
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/anfeltoubelseghir" target="_blank" rel="noopener noreferrer">github.com/anfeltoubelseghir</a>
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-placeholder" aria-disabled="true">Coming soon</span>
+              </li>
+              <li>
+                <span class="contact-label">Email</span>
+                <span class="contact-placeholder" aria-disabled="true">Coming soon</span>
+              </li>
+            </ul>
+          </div>
+
+          <a href="https://github.com/anfeltoubelseghir" target="_blank" rel="noopener noreferrer" class="btn btn-primary contact-cta">Contact Me on GitHub</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Anfel Toubal Seghir</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/anfeltoubelseghir" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><span class="contact-placeholder" aria-disabled="true">LinkedIn — Coming soon</span></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
